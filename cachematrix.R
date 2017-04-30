@@ -6,7 +6,7 @@
 
 
 #---------------------------------------------------------
-# makeMx_Cache 
+# makeCacheMatrix 
 # cache matrix from a matrix
 #---------------------------------------------------------
 makeCacheMatrix <- function(x = matrix()) {
