@@ -48,13 +48,18 @@ cacheSolve <- function(x, ...) {
   }
 }
 
-## Sample
+
+## ----------
+## MAIN
+## ----------
+
+# Matrix
 x = rbind(c(1, 1/3, 1/5), c(1/3, 1, 1/5), c(1/3, 1/5, 1))
 m = makeCacheMatrix(x)
 m$Mx_Get()
 
-## No cache
+# No cache
 cacheSolve(m)
 
-## Retrieving from the cache
+# Retrieving from the cache
 cacheSolve(m)
